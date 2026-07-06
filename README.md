@@ -1,4 +1,4 @@
-# CIFAR-10 Image Classifier (CNN)
+# Image Classifier
 
 ## Description
 This project implements a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset. Several model variants are trained and compared, including techniques to reduce overfitting such as Dropout and Data Augmentation.
@@ -44,10 +44,11 @@ CIFAR-10 is a dataset of 50,000 32x32 color training images and 10,000 test imag
 - Matplotlib
 
 ## Project structure
-image-classifier-cnn/
+```
+image-classifier/
 ├── ProjetIA.ipynb     (main notebook)
 └── README.md          (this file)
-
+````
 
 ## Results
 The base CNN model starts overfitting after epoch 9 (validation loss increases while training loss keeps decreasing). Dropout and Data Augmentation are used to reduce this overfitting and improve generalization on the test set.
